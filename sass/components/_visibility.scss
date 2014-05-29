@@ -1,0 +1,127 @@
+// ------------------------------------------------------------\\
+//  VISIBILITY                                              
+// ------------------------------------------------------------\\
+
+.hidden {
+    display: none !important;
+}
+
+.hidden-light {
+    display: block !important;
+}
+
+.hidden-moderate {
+    display: block !important;
+}
+
+.hidden-desktop {
+    display: block !important;
+}
+
+.hidden-heavy {
+    display: block !important;
+}
+
+.hidden-inline {
+    display: inline-block !important;
+}
+
+.visible-light {
+    display: none !important;
+}
+
+.visible-moderate {
+    display: none !important;
+}
+
+.visible-inline-moderate {
+    display: none !important
+}
+
+.visible-desktop {
+    display: none !important;
+}
+
+.visible-inline-desktop {
+    display: none !important;
+}
+
+.visible-heavy {
+    display: none !important;
+}
+
+.visible-inline-heavy {
+    display: none !important;
+}
+
+.visible-inline {
+    display: none !important;
+}
+
+
+
+@media (min-width: $grid-moderate) and (max-width: $grid-normal - 1) {
+    .hidden-moderate {
+        display: none !important;
+    }
+    .hidden-inline-moderate {
+        display: none !important
+    }
+    .visible-moderate {
+        display: block !important
+    }
+    .visible-light {
+        display: none !important;
+    }
+    .visible-desktop {
+        display: none !important;
+    }
+    .visible-heavy {
+        display: none !important;
+    }
+    .visible-inline-moderate {
+        display: inline-block !important;
+    }
+}
+
+@media (min-width: $grid-normal) and (max-width: $grid-heavy - 1) {
+    .hidden-desktop {
+        display: none !important;
+    }
+    .hidden-inline-desktop {
+        display: none !important;
+    }
+    .visible-heavy {
+        display: none !important;
+    }
+    .visible-desktop {
+        display: block !important;
+    }
+    .visible-inline-desktop {
+        display: inline-block !important;
+    }
+}
+
+@media (max-width: $grid-light) {
+    .hidden-light {
+        display: none !important;
+    }
+    .hidden-inline-light {
+        display: none !important;
+    }
+    .visible-light {
+        display: block !important;
+    }
+    .visible-inline-light {
+        display: inline-block !important;
+    }
+    .visible-moderate {
+        display: none !important;
+    }
+    .visible-desktop {
+        display: none !important;
+    }
+    .visible-heavy {
+        display: none !important;
+    }
+}
