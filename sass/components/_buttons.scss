@@ -169,6 +169,12 @@ button {
 	display: block;
 }
 
+.button-category.center {
+	float: none !important;
+	display: block;
+	text-align: center;
+}
+
 .button-category.right {
 	float: none !important;
 	text-align: right;

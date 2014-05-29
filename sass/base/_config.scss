@@ -60,7 +60,7 @@ $text-color: 							$color-normal !default;
 $hr-border: 							1px solid #dadada !default;
 $hr-margin-bottom: 						$global-margin-bottom-normal !default;
 
-$valign-height: 						200px !default;
+$valign-height: 						300px !default;
 
 // Typography 
 //-------------------------------------------------------------\\
@@ -741,8 +741,10 @@ $table-border-right: 					1px solid darken($color-gray-lighten, 10%) !default;
 // Icons
 //-------------------------------------------------------------\\
 
-$icon-bar-color: 					$color-tertiary !default;
+$icon-bar-color: 						$color-tertiary !default;
 
+// Icon in left position - margin right
+$icon-margin: 							3px !default;
 
 
 // Panels
@@ -789,11 +791,11 @@ $panel-content-padding-right-moderate: 			$global-padding-right-moderate !defaul
 
 $panel-content-padding-top-light: 				25px !default;
 $panel-content-padding-bottom-light: 			25px !default;
-$panel-content-padding-left-light: 			$global-padding-left-light !default;
+$panel-content-padding-left-light: 				$global-padding-left-light !default;
 $panel-content-padding-right-light: 			$global-padding-right-light !default;
 
 // Panel content background / color
-$panel-content-bg: 								none !default;
+$panel-content-bg: 								transparent !default;
 $panel-content-color: 							inherit !default;
 
 $panel-content-color-primary: 					$color-white !default;
@@ -963,6 +965,21 @@ $block-margin-bottom-light: 			0px !default;
 $details-padding-right: 				15px !default;
 $details-padding-left: 					15px !default;
 
+
+
+
+// Footer
+//-------------------------------------------------------------\\
+
+// Footer padding.
+$footer-padding-top-normal: 			20px !default;
+$footer-padding-bottom-normal: 			20px !default;
+$footer-padding-left-normal: 			0px !default;
+$footer-padding-right-normal: 			0px !default;
+
+// Footer styling.
+$footer-bg: 							$color-tertiary !default;
+$footer-color: 							$color-normal !default;
 
 
 

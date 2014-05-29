@@ -2,126 +2,129 @@
 //  VISIBILITY                                              
 // ------------------------------------------------------------\\
 
-.hidden {
+.hide {
     display: none !important;
 }
 
-.hidden-light {
+.show {
     display: block !important;
 }
 
-.hidden-moderate {
+.hide-light {
     display: block !important;
 }
 
-.hidden-desktop {
+.hide-moderate {
     display: block !important;
 }
 
-.hidden-heavy {
+.hide-desktop {
     display: block !important;
 }
 
-.hidden-inline {
+.hide-heavy {
+    display: block !important;
+}
+
+.hide-inline {
     display: inline-block !important;
 }
 
-.visible-light {
+.show-light {
     display: none !important;
 }
 
-.visible-moderate {
+.show-moderate {
     display: none !important;
 }
 
-.visible-inline-moderate {
+.show-inline-moderate {
     display: none !important
 }
 
-.visible-desktop {
+.show-desktop {
     display: none !important;
 }
 
-.visible-inline-desktop {
+.show-inline-desktop {
     display: none !important;
 }
 
-.visible-heavy {
+.show-heavy {
     display: none !important;
 }
 
-.visible-inline-heavy {
+.show-inline-heavy {
     display: none !important;
 }
 
-.visible-inline {
+.show-inline {
     display: none !important;
 }
-
 
 
 @media (min-width: $grid-moderate) and (max-width: $grid-normal - 1) {
-    .hidden-moderate {
+    .hide-moderate {
         display: none !important;
     }
-    .hidden-inline-moderate {
+    .hide-inline-moderate {
         display: none !important
     }
-    .visible-moderate {
+    .show-moderate {
         display: block !important
     }
-    .visible-light {
+    .show-light {
         display: none !important;
     }
-    .visible-desktop {
+    .show-desktop {
         display: none !important;
     }
-    .visible-heavy {
+    .show-heavy {
         display: none !important;
     }
-    .visible-inline-moderate {
+    .show-inline-moderate {
         display: inline-block !important;
     }
 }
 
 @media (min-width: $grid-normal) and (max-width: $grid-heavy - 1) {
-    .hidden-desktop {
+    .hide-desktop {
         display: none !important;
     }
-    .hidden-inline-desktop {
+    .hide-inline-desktop {
         display: none !important;
     }
-    .visible-heavy {
+    .show-heavy {
         display: none !important;
     }
-    .visible-desktop {
+    .show-desktop {
         display: block !important;
     }
-    .visible-inline-desktop {
+    .show-inline-desktop {
         display: inline-block !important;
     }
 }
 
 @media (max-width: $grid-light) {
-    .hidden-light {
+    .hide-light {
         display: none !important;
     }
-    .hidden-inline-light {
+    .hide-inline-light {
         display: none !important;
     }
-    .visible-light {
+    .show-light {
         display: block !important;
     }
-    .visible-inline-light {
+    .show-inline-light {
         display: inline-block !important;
     }
-    .visible-moderate {
+    .show-moderate {
         display: none !important;
     }
-    .visible-desktop {
+    .show-desktop {
         display: none !important;
     }
-    .visible-heavy {
+    .show-heavy {
         display: none !important;
     }
 }

@@ -11,11 +11,11 @@
     float:left !important;;
 }
 
-.push-right {
+.force-right {
     float:right !important;
 }
 
-.push-left {
+.force-left {
     float: left !important;
 }
 
@@ -34,7 +34,6 @@
     margin-right: auto !important;
     display: block !important;
     float: none !important;
-    text-align: center;
     img {
         margin-left: auto;
         margin-right: auto;
@@ -49,11 +48,19 @@
 .text-center {
     text-align: center !important;
     display: block !important;
+    img {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 .text-right {
     text-align: right !important;
     display: block !important;
+    img {
+        text-align: right;
+        display: inline-block !important;
+    }
 }
 
 
@@ -110,6 +117,10 @@ hr {
         text-align: center !important;
         display: block !important;
     }
+    .text-right-moderate {
+        text-align: right !important;
+        display: block !important;
+    }
     .center-moderate {
         margin-left: auto !important;
         margin-right: auto !important;
@@ -123,8 +134,48 @@ hr {
     }
 }
 
-@media (min-width: $grid-normal) {
-    
+@media (min-width: $grid-normal) and (max-width: $grid-heavy - 1) {
+    .text-center-normal {
+        text-align: center !important;
+        display: block !important;
+    }
+    .text-right-normal {
+        text-align: right !important;
+        display: block !important;
+    }
+    .center-normal {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        display: block !important;
+        float: none !important;
+        text-align: center;
+        img {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
+
+@media (min-width: $grid-heavy) {
+    .text-center-heavy {
+        text-align: center !important;
+        display: block !important;
+    }
+    .text-right-heavy {
+        text-align: right !important;
+        display: block !important;
+    }
+    .center-heavy {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        display: block !important;
+        float: none !important;
+        text-align: center;
+        img {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
 }
 
 @media (max-width: $grid-light) {
@@ -132,7 +183,10 @@ hr {
         text-align: center !important;
         display: block !important;
     }
-
+    .text-right-light {
+        text-align: right !important;
+        display: block !important;
+    }
     .center-light {
         margin-left: auto !important;
         margin-right: auto !important;
