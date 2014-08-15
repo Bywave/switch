@@ -1,0 +1,53 @@
+// ------------------------------------------------------------\\
+//  DETAILS                                               
+// ------------------------------------------------------------\\
+
+
+.details {
+    @include clear();
+    display: table;
+    table-layout: fixed;
+    border-spacing: 0;
+    margin-bottom: $details-margin-bottom;
+    .details-left {
+        padding-right: $details-padding-right;
+    }
+    .details-right {
+        padding-left: $details-padding-left;
+    }
+    .details-data {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .details-data.bottom {
+        vertical-align: bottom;
+    }
+    h1, h2, h3, h4, h5, h6, p, .button {
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    .icon-image, .icons {
+        margin:0;
+    }
+}
+
+
+
+
+
+@media (min-width: $query-medium) and (max-width: $query-default - 1) {
+
+}
+
+@media (min-width: $query-default) and (max-width: $query-large - 1) {
+    
+}
+
+@media (min-width: $query-large) {
+
+}
+
+@media (max-width: $query-small) {
+   
+}

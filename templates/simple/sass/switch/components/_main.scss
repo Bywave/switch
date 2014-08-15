@@ -1,0 +1,40 @@
+// ------------------------------------------------------------\\
+//  MAIN                                              
+// ------------------------------------------------------------\\
+
+.main {
+	background: $main-bg;
+	color: $main-color;
+	padding: $main-padding-top, $main-padding-right, $main-padding-bottom, $main-padding-left;
+}
+
+.main-top {
+	color: $main-top-color;
+	border-bottom: $main-top-border-bottom;
+	margin-bottom: $main-top-margin-bottom;
+	background-color: $main-top-bg;
+	padding: $main-top-padding-top, $main-top-padding-right, $main-top-padding-bottom, $main-top-padding-left;
+	h1, h2, h3, h4, h5, h6 {
+		color: $main-top-heading-color;
+	}
+	p:last-child {
+		margin-bottom: 0;
+	}
+}
+
+
+@media (min-width: $query-medium) and (max-width: $query-default - 1) {
+
+}
+
+@media (min-width: $query-default) and (max-width: $query-large - 1) {
+    
+}
+
+@media (min-width: $query-large) {
+
+}
+
+@media (max-width: $query-small) {
+   
+}
